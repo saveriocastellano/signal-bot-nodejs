@@ -58,8 +58,9 @@ Read the content of `run.js` to understand how to use the SignalBot class. Here 
     });
 ```
 
-The above code starts a Signal bot for the given phone number that echos any message sent to it 
-from a group or private chat and automatically join any invitation to join a group that is shared to the bot.
+The above code starts a Signal bot for the given phone number that:
+* echos any message sent to it  from a group or private chat
+* automatically joins groups upon receiving shared group invitation 
 
 ## Specify connection parameters ##
 
