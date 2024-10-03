@@ -14,7 +14,7 @@ https://github.com/saveriocastellano/signal-cli
 
 # Usage #
 
-Look at `run.js` to understand how to use the SignalBot class. Here is how the code looks like:
+Read the content of `run.js` to understand how to use the SignalBot class. Here is how the code looks like:
 
 ```
     let bot = new SignalBot({account: '+38124962777'});
@@ -57,6 +57,9 @@ Look at `run.js` to understand how to use the SignalBot class. Here is how the c
 
     });
 ```
+
+The above code starts a Signal bot for the given phone number that echos any message sent to it 
+from a group or private chat and automatically join any invitation to join a group that is shared to the bot.
 
 ## Specify connection parameters ##
 
