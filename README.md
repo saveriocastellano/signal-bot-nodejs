@@ -17,7 +17,7 @@ https://github.com/saveriocastellano/signal-cli
 Look at `run.js` to understand how to use the SignalBot class. Here is how the code looks like:
 
 ```
-    let bot = new SignalBot({account: '+34613962849'});
+    let bot = new SignalBot({account: '+38124962777'});
 
     bot.on('connected', ()=> {
         console.log("connected!");
