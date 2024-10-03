@@ -1,5 +1,5 @@
 # signal-bot-nodejs
-Simple experimental NodeJS Signal bot based on signal-cli
+Simple experimental NodeJS Signal bot based on (signal-cli)[https://github.com/saveriocastellano/signal-cli]
 
 This is NOT a complete bot, it's basically just a proof-of-concept that shows how to create a simple NodeJS bot for Signal
 Yet this can be a very useful starting point if you want to implement a Signal bot in NodeJS. 
