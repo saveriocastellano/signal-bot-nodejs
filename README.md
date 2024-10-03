@@ -57,3 +57,16 @@ Look at `run.js` to understand how to use the SignalBot class. Here is how the c
 
     });
 ```
+
+## Specify connection parameters ##
+
+
+```
+    let bot = new SignalBot({
+        account: '+38124962777',
+        host: '127.0.0.1',
+        port: 8080,
+        ssl: true
+    });
+
+```
