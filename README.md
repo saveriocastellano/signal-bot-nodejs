@@ -8,7 +8,7 @@ Additional features can be added very easily to the bot, it's just a matter of c
 The bot requires you to run `signal-cli` in HTTP daemon mode (signal-cli daemon --http). It uses `signal-cli` RPC endpoint
 for Signal API calls (e.g. send messages) and signal-cli SSE (Server-Sent-Event) to receive the stream of events from Signal.
 
-The main bot class SignalBot.js connects to signal-cli daemon. I suggest you to use this patched version of signal-cli as it
+The main bot class SignalBot.js connects to `signal-cli` daemon. I suggest you to use this patched version `of signal-cli` as it
 fixes an issue that allows receiving message for a specific account (which is done by calling the `/api/v1/events` with 
 `account` querystring parameter):
 
